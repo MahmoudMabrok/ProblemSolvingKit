@@ -11,7 +11,8 @@ fun jumpingOnClouds(c: Array<Int>): Int {
     var steps = 0
     var current = 0
     while (current < c.size - 1) {
-        current += if (c[current + 2] != 1) 2 else 1
+        val isRange = current + 2 <= c.size - 1
+        current += if (isRange && c[current + 2] != 1) 2 else 1
         steps += 1
     }
     return steps
