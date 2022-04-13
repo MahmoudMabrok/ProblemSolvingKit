@@ -1,6 +1,6 @@
 package leetcode
 
-import leetcode.easy.rotateArray
+import leetcode.easy.arrays.rotateArray
 import kotlin.system.measureTimeMillis
 
 

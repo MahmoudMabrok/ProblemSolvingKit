@@ -1,7 +1,10 @@
-package leetcode.easy
+package leetcode.easy.arrays
 
-import kotlin.math.max
-
+/**
+ * Not correct done
+ * @param prices IntArray
+ * @return Int
+ */
 fun maxProfit(prices: IntArray): Int {
     var maxDiff = 0
     for (i in 0 until prices.size - 1) {
