@@ -1,7 +1,7 @@
 name: automerge
 on:
   pull_request:
-    la:
+    types:
       - labeled
       - unlabeled
       - synchronize
