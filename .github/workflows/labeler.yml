@@ -1,0 +1,6 @@
+documentation:
+- "**/*.md"
+- "*.md"
+
+workflow:
+- any: ['.github/*']
