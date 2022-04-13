@@ -1,2 +1,2 @@
 # ProblemSolvingKit
-collection of problem that i solved. 
+collections of problem that I solved. 
