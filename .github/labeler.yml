@@ -14,7 +14,7 @@ haveTests:
 - any: ['src/test/*.kt']
 
 leetcode: 
-- **/leetcode/**/*
+- src/**/leetcode/**/*
 
 hackerank:
-- any: ['**/hackerrank_prep/**/*']
+- any: ['src/**/hackerrank_prep/**/*']
