@@ -1,4 +1,4 @@
-package leetcode.easy
+package leetcode.easy.arrays
 
 fun containsDuplicate(nums: IntArray): Boolean {
     return nums.toSet().size != nums.size

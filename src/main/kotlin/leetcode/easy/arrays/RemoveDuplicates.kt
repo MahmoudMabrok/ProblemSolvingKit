@@ -1,4 +1,4 @@
-package leetcode.easy
+package leetcode.easy.arrays
 
 class RemoveDuplicates {
 

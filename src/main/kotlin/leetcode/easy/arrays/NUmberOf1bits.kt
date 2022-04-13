@@ -1,7 +1,7 @@
-package leetcode.easy
+package leetcode.easy.arrays
 
 /**
- *  NOT COMPLETED YET 
+ *  NOT COMPLETED YET
  * @param n Int
  * @return Int
  */

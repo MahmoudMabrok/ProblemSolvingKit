@@ -1,13 +1,9 @@
 package leetcode.easy
 
-import leetcode.data1
-import leetcode.expectedArray1
+import leetcode.easy.arrays.rotateArray
 import leetcode.prepare
 import org.junit.Test
-import kotlin.system.measureNanoTime
-import kotlin.system.measureTimeMillis
 import kotlin.test.assertContentEquals
-import kotlin.test.assertEquals
 
 class RotateArrayKtTest {
 

@@ -10,7 +10,7 @@ class SingleNumberKtTest {
     fun singleNumber() {
         val nums = intArrayOf(1,2,1,2,3)
         val expected = 3
-        val actual = singleNumber(nums)
+        val actual = leetcode.easy.arrays.singleNumber(nums)
         assertEquals(expected, actual)
     }
 
@@ -18,7 +18,7 @@ class SingleNumberKtTest {
     fun singleNumber_2() {
         val nums = intArrayOf(1,2,1)
         val expected = 2
-        val actual = singleNumber(nums)
+        val actual = leetcode.easy.arrays.singleNumber(nums)
         assertEquals(expected, actual)
     }
 

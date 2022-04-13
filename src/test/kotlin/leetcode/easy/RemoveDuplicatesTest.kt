@@ -1,5 +1,6 @@
 package leetcode.easy
 
+import leetcode.easy.arrays.RemoveDuplicates
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
