@@ -1,3 +1,9 @@
+leetcode: 
+- src/**/leetcode/**/*
+
+hackerank:
+- any: ['src/**/hackerrank_prep/**/*']
+
 documentation:
 - "**/*.md"
 - "*.md"
@@ -13,8 +19,4 @@ config:
 haveTests: 
 - any: ['src/test/*.kt']
 
-leetcode: 
-- any: ['src/**/leetcode/*']
 
-hackerank:
-- any: ['src/**/hackerrank_prep/*']
