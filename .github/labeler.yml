@@ -4,3 +4,6 @@ documentation:
 
 workflow:
 - any: ['.github/*']
+
+haveTests: 
+- any: ["src/test/*.kt"]
