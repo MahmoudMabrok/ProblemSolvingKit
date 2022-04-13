@@ -5,5 +5,16 @@ documentation:
 workflow:
 - any: ['.github/*']
 
+config:
+- "*.yml"
+- "**/*.yml"
+- "*.properties"
+
 haveTests: 
-- any: ["src/test/*.kt"]
+- any: ['src/test/*.kt']
+
+leetcode: 
+- any: ['src/**/leetcode/*']
+
+hackerank:
+- any: ['src/**/hackerrank_prep/*']
