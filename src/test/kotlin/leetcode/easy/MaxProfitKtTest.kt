@@ -9,7 +9,7 @@ class MaxProfitKtTest {
     fun maxProfit() {
         val data = intArrayOf(7,1,5,3,6,4)
         val actual = leetcode.easy.arrays.maxProfit(data)
-        val expected = 5
+        val expected = 155
         assertEquals(expected, actual)
     }
 }
