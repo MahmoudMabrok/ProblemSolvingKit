@@ -3,8 +3,13 @@ name: Build Project
 on:
   push:
     branches: [ develop ]
+    paths: '**.kt'
   pull_request:
     branches: [ develop ]
+    paths:
+      - '**.kt' 
+    
+    
 
 jobs:
   build:
