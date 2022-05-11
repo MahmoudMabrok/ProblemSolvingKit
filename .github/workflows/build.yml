@@ -28,6 +28,6 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: Run Tests
-      run: ./gradlew test
+      run: ./gradlew testDebugUnitTest
 
 
