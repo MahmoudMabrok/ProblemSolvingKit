@@ -27,12 +27,7 @@ jobs:
 
     - name: Build with Gradle
       run: ./gradlew build
+    - name: Run Tests
+      run: ./gradlew testDebugUnitTest
 
-  test:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Run tests
-      run: ./gradlew test
 
